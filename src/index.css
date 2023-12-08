@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 50px 0;
+	font-size: 40px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section {
+	display: flex;
+	gap: 50px;
+}
+button {
+	cursor: pointer;
+}
+
+.simon {
+	width: 300px;
+	height: 300px;
+	/* background-color: aqua; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.simon__item {
+	width: 150px;
+	height: 150px;
+}
+
+#id1 {
+	background-color: purple;
+	opacity: 50%;
+}
+#id2 {
+	background-color: red;
+	opacity: 50%;
+}
+#id3 {
+	background-color: yellow;
+	opacity: 50%;
+}
+#id4 {
+	background-color: green;
+	opacity: 50%;
+}
+
+.option__title {
+	margin: 20px auto;
+	font-size: 40px;
+}
+.option__desc {
+	margin: 10px 0;
+	font-size: 25px;
+}
+
+.option__btn {
+	width: 100px;
+	height: 30px;
+	margin-bottom: 30px;
+	border-radius: 6px;
+	border: none;
+	background-color: rgba(113, 238, 17);
+}
+
+.option__list {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.option__list > li > button {
+	width: 100px;
+	height: 30px;
+	margin-bottom: 30px;
+	border-radius: 6px;
+	border: none;
+}
