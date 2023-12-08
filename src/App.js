@@ -115,6 +115,9 @@ function App() {
 						onMouseDown={() => {
 							purple.current.style.opacity = '100%'
 						}}
+						onTouchStart={() => {
+							purple.current.style.opacity = '100%'
+						}}
 						onMouseUp={() => {
 							purple.current.style.opacity = '50%'
 						}}
@@ -128,6 +131,9 @@ function App() {
 						ref={red}
 						id='id2'
 						onMouseDown={() => {
+							red.current.style.opacity = '100%'
+						}}
+						onTouchStart={() => {
 							red.current.style.opacity = '100%'
 						}}
 						onMouseUp={() => {
@@ -145,6 +151,9 @@ function App() {
 						onMouseDown={() => {
 							yellow.current.style.opacity = '100%'
 						}}
+						onTouchStart={() => {
+							yellow.current.style.opacity = '100%'
+						}}
 						onMouseUp={() => {
 							yellow.current.style.opacity = '50%'
 						}}
@@ -158,6 +167,9 @@ function App() {
 						ref={green}
 						id='id4'
 						onMouseDown={() => {
+							green.current.style.opacity = '100%'
+						}}
+						onTouchStart={() => {
 							green.current.style.opacity = '100%'
 						}}
 						onMouseUp={() => {
